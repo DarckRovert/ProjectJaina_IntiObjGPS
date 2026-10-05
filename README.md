@@ -29,11 +29,19 @@ Solo disponible en cuentas GM del servidor **Inti** (entorno de pruebas).
 | `IntiObjGPSPending` | Global | Cola de cambios pendientes de envío |
 | `IntiObjGPSDraft` | Por personaje | Borrador del GM activo |
 
-## Créditos
+## Créditos y Licencia
 
 - **Autor:** DarckRovert (Elnazzareno) & WoW Perú Team
 - **Versión:** 2.0.0
-- **Acceso:** Solo GM — Servidor Inti
+- **Acceso:** Solo GM — Servidor Inti (Pruebas)
+- **Licencia:** [MIT License](LICENSE)
+
+---
+
+## Documentación del Ecosistema
+
+* [Ficha Técnica Oficial del Ecosistema](ECOSYSTEM_REGISTRY.md)
+* [Historial de Cambios](CHANGELOG.md)
 
 ---
 
