@@ -2,6 +2,8 @@
 
 > **WoW Perú Ecosystem** · WotLK 3.3.5a compatible · `Interface: 30300`
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Herramienta de **edición por lotes de coordenadas GPS de objetos** para Game Masters en el servidor Inti (entorno de pruebas de WoW Perú). Permite crear, editar y empujar objetos georeferenciados a la base de datos del servidor con precisión quirúrgica.
 
 ---
