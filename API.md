@@ -1,7 +1,7 @@
-# 🔌 Especificación Técnica y API — WoWPeru_IntiObjGPS
+# 🔌 Especificación Técnica y API — Wanos_IntiObjGPS
 
-[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FWoWPeru_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/WoWPeru_IntiObjGPS)
-[![Ecosistema](https://img.shields.io/badge/Ecosistema-WoW%20Per%C3%BA%203.3.5a-gold.svg)](https://wow-peru.lat/)
+[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FWanos_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/Wanos_IntiObjGPS)
+[![Ecosistema](https://img.shields.io/badge/Ecosistema-WoW%20Per%C3%BA%203.3.5a-gold.svg)](https://worldofwanos.com/)
 
 ## 📌 Resumen Arquitectónico
 Herramienta de precisión para Game Masters que permite capturar coordenadas exactas (x, y, z, orientacion, mapId) para spawns masivos y colocación de GameObjects en el mundo.
@@ -37,4 +37,4 @@ Herramienta de precisión para Game Masters que permite capturar coordenadas exa
 ## 🛠️ Buenas Prácticas de Integración
 1. Toda invocación a funciones públicas debe verificar previamente la existencia del espacio de nombres en `_G`.
 2. Las tablas de configuración deben consultarse en modo lectura sin sobreescribir valores por omisión no validados.
-3. El intercambio de datos con otros addons debe efectuarse a través del bus oficial `WoWPeru_Companion` o hooks de eventos estándar.
+3. El intercambio de datos con otros addons debe efectuarse a través del bus oficial `Wanos_Companion` o hooks de eventos estándar.

@@ -1,7 +1,7 @@
-# 🤖 Directrices de Ingeniería y Restricciones para Agentes IA — WoWPeru_IntiObjGPS
+# 🤖 Directrices de Ingeniería y Restricciones para Agentes IA — Wanos_IntiObjGPS
 
-**Addon:** `WoWPeru_IntiObjGPS`  
-**Repositorio Oficial:** [https://github.com/DarckRovert/WoWPeru_IntiObjGPS](https://github.com/DarckRovert/WoWPeru_IntiObjGPS)  
+**Addon:** `Wanos_IntiObjGPS`  
+**Repositorio Oficial:** [https://github.com/DarckRovert/Wanos_IntiObjGPS](https://github.com/DarckRovert/Wanos_IntiObjGPS)  
 **Motor Gráfico y Runtime:** WoW 3.3.5a WotLK (Build 12340) / Lua 5.1 (Blizzard VM)
 
 ---

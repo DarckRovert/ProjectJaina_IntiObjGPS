@@ -1,12 +1,12 @@
 # IntiObjGPS — Editor de Objetos GPS para GM
 
-[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FWoWPeru_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/WoWPeru_IntiObjGPS)
+[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FWanos_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/Wanos_IntiObjGPS)
 
-> **WoW Perú Ecosystem** · WotLK 3.3.5a compatible · `Interface: 30300`
+> **Project Jaina Ecosystem** · WotLK 3.3.5a compatible · `Interface: 30300`
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Herramienta de **edición por lotes de coordenadas GPS de objetos** para Game Masters en el servidor Inti (entorno de pruebas de WoW Perú). Permite crear, editar y empujar objetos georeferenciados a la base de datos del servidor con precisión quirúrgica.
+Herramienta de **edición por lotes de coordenadas GPS de objetos** para Game Masters en el servidor Inti (entorno de pruebas de Project Jaina). Permite crear, editar y empujar objetos georeferenciados a la base de datos del servidor con precisión quirúrgica.
 
 ---
 
@@ -35,7 +35,7 @@ Solo disponible en cuentas GM del servidor **Inti** (entorno de pruebas).
 
 ## Créditos y Licencia
 
-- **Autor:** DarckRovert (Elnazzareno) & WoW Perú Team
+- **Autor:** DarckRovert (Elnazzareno) & Project Jaina Team
 - **Versión:** 2.0.0
 - **Acceso:** Solo GM — Servidor Inti (Pruebas)
 - **Licencia:** [MIT License](LICENSE)
@@ -49,4 +49,4 @@ Solo disponible en cuentas GM del servidor **Inti** (entorno de pruebas).
 
 ---
 
-*Parte del [ecosistema WoW Perú](https://github.com/DarckRovert)*
+*Parte del [ecosistema Project Jaina](https://github.com/DarckRovert)*

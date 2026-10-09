@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: Inti - Objetos GPS
 ## Notes: Editor por lotes para GM 3. Solo Inti (Pruebas).
-## Author: DarckRovert (Elnazzareno) & WoW Perú Team
+## Author: DarckRovert (Elnazzareno) & Project Jaina Team
 ## Version: 2.0.0
 ## SavedVariables: IntiObjGPSHistory, IntiObjGPSPending
 ## SavedVariablesPerCharacter: IntiObjGPSDraft

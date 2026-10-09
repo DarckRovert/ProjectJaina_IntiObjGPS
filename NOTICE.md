@@ -1,14 +1,14 @@
-# 📜 Aviso Legal y Atribución — WoWPeru_IntiObjGPS
+# 📜 Aviso Legal y Atribución — Wanos_IntiObjGPS
 
-Este repositorio forma parte de las herramientas de Staff y desarrollo de **WoW Perú - Reino Andino**.
+Este repositorio forma parte de las herramientas de Staff y desarrollo de **Project Jaina - Project Jaina**.
 Contiene el editor y capturador de coordenadas GPS de GameObjects para World of Warcraft 3.3.5a (Build 12340).
 
 ---
 
 ## 1. Autoría y Desarrollo Oficial
-* **Desarrollador:** DarckRovert & WoW Perú Development Team
-* **Ecosistema:** [WoW Perú — Reino Andino (Servidor Inti)](https://wow-peru.lat/)
-* **Repositorio Oficial:** [DarckRovert/WoWPeru_IntiObjGPS](https://github.com/DarckRovert/WoWPeru_IntiObjGPS)
+* **Desarrollador:** DarckRovert & Project Jaina Development Team
+* **Ecosistema:** [Project Jaina — Project Jaina (Servidor Inti)](https://worldofwanos.com/)
+* **Repositorio Oficial:** [DarckRovert/Wanos_IntiObjGPS](https://github.com/DarckRovert/Wanos_IntiObjGPS)
 
 ---
 
