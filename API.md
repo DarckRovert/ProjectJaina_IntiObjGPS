@@ -1,7 +1,7 @@
 # 🔌 Especificación Técnica y API — Wanos_IntiObjGPS
 
 [![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FWanos_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/Wanos_IntiObjGPS)
-[![Ecosistema](https://img.shields.io/badge/Ecosistema-WoW%20Per%C3%BA%203.3.5a-gold.svg)](https://worldofwanos.com/)
+[![Ecosistema](https://img.shields.io/badge/Ecosistema-WoW%20Per%C3%BA%203.3.5a-gold.svg)](https://projectjaina.com/)
 
 ## 📌 Resumen Arquitectónico
 Herramienta de precisión para Game Masters que permite capturar coordenadas exactas (x, y, z, orientacion, mapId) para spawns masivos y colocación de GameObjects en el mundo.

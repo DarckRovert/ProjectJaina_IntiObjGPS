@@ -7,7 +7,7 @@ Contiene el editor y capturador de coordenadas GPS de GameObjects para World of 
 
 ## 1. Autoría y Desarrollo Oficial
 * **Desarrollador:** DarckRovert & Project Jaina Development Team
-* **Ecosistema:** [Project Jaina — Project Jaina (Servidor Inti)](https://worldofwanos.com/)
+* **Ecosistema:** [Project Jaina — Project Jaina (Servidor Inti)](https://projectjaina.com/)
 * **Repositorio Oficial:** [DarckRovert/Wanos_IntiObjGPS](https://github.com/DarckRovert/Wanos_IntiObjGPS)
 
 ---
