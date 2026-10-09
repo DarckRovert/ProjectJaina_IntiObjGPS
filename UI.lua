@@ -1,8 +1,8 @@
-local M = IntiObjGPS
+local M = ProjectJaina_IntiObjGPS
 local function allowed() return GetRealmName() == M.realm end
 local function chat(text) DEFAULT_CHAT_FRAME:AddMessage("|cffffcc00[Inti GPS]|r " .. text) end
 
-local frame = CreateFrame("Frame", "IntiObjGPSWindow", UIParent)
+local frame = CreateFrame("Frame", "ProjectJaina_IntiObjGPSWindow", UIParent)
 frame:SetSize(660, 580)
 frame:SetPoint("CENTER")
 frame:SetFrameStrata("DIALOG")
@@ -16,7 +16,7 @@ frame:SetBackdrop({ bgFile = "Interface\\DialogFrame\\UI-DialogBox-Background",
     edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border", tile = true, tileSize = 32,
     edgeSize = 32, insets = { left = 10, right = 10, top = 10, bottom = 10 } })
 frame:Hide()
-UISpecialFrames[#UISpecialFrames + 1] = "IntiObjGPSWindow"
+UISpecialFrames[#UISpecialFrames + 1] = "ProjectJaina_IntiObjGPSWindow"
 
 local function label(text, y, font)
     local f = frame:CreateFontString(nil, "OVERLAY", font or "GameFontHighlightSmall")
@@ -34,10 +34,10 @@ local close = CreateFrame("Button", nil, frame, "UIPanelCloseButton")
 close:SetPoint("TOPRIGHT", -5, -5)
 close:SetScript("OnClick", function() frame:Hide() end)
 
-local scroll = CreateFrame("ScrollFrame", "IntiObjGPSInputScroll", frame, "UIPanelScrollFrameTemplate")
+local scroll = CreateFrame("ScrollFrame", "ProjectJaina_IntiObjGPSInputScroll", frame, "UIPanelScrollFrameTemplate")
 scroll:SetPoint("TOPLEFT", 24, -100)
 scroll:SetSize(588, 255)
-local edit = CreateFrame("EditBox", "IntiObjGPSInput", scroll)
+local edit = CreateFrame("EditBox", "ProjectJaina_IntiObjGPSInput", scroll)
 edit:SetMultiLine(true)
 edit:SetAutoFocus(false)
 edit:SetFontObject(ChatFontNormal)
@@ -73,20 +73,20 @@ local validate, run, cancel, history = button("Validar", 24, 125), button("Ejecu
 run:Disable()
 cancel:Disable()
 
-local logFrame = CreateFrame("Frame", "IntiObjGPSLogWindow", UIParent)
+local logFrame = CreateFrame("Frame", "ProjectJaina_IntiObjGPSLogWindow", UIParent)
 logFrame:SetSize(700, 380)
 logFrame:SetPoint("CENTER")
 logFrame:SetFrameStrata("FULLSCREEN_DIALOG")
 logFrame:SetBackdrop(frame:GetBackdrop())
 logFrame:EnableMouse(true)
 logFrame:Hide()
-UISpecialFrames[#UISpecialFrames + 1] = "IntiObjGPSLogWindow"
+UISpecialFrames[#UISpecialFrames + 1] = "ProjectJaina_IntiObjGPSLogWindow"
 local logClose = CreateFrame("Button", nil, logFrame, "UIPanelCloseButton")
 logClose:SetPoint("TOPRIGHT", -5, -5)
 local logTitle = logFrame:CreateFontString(nil, "OVERLAY", "GameFontNormal")
 logTitle:SetPoint("TOPLEFT", 24, -20)
 logTitle:SetText("Registro GPS | Ctrl+A, Ctrl+C para copiar")
-local logScroll = CreateFrame("ScrollFrame", "IntiObjGPSLogScroll", logFrame, "UIPanelScrollFrameTemplate")
+local logScroll = CreateFrame("ScrollFrame", "ProjectJaina_IntiObjGPSLogScroll", logFrame, "UIPanelScrollFrameTemplate")
 logScroll:SetPoint("TOPLEFT", 24, -55)
 logScroll:SetSize(625, 295)
 local logEdit = CreateFrame("EditBox", nil, logScroll)
@@ -100,9 +100,9 @@ logClose:SetScript("OnClick", function() logFrame:Hide() end)
 
 local e
 local function record(text)
-    IntiObjGPSHistory = IntiObjGPSHistory or {}
-    IntiObjGPSHistory[#IntiObjGPSHistory + 1] = date("%Y-%m-%d %H:%M:%S") .. " " .. UnitName("player") .. " " .. text
-    while #IntiObjGPSHistory > 2000 do table.remove(IntiObjGPSHistory, 1) end
+    ProjectJaina_IntiObjGPSHistory = ProjectJaina_IntiObjGPSHistory or {}
+    ProjectJaina_IntiObjGPSHistory[#ProjectJaina_IntiObjGPSHistory + 1] = date("%Y-%m-%d %H:%M:%S") .. " " .. UnitName("player") .. " " .. text
+    while #ProjectJaina_IntiObjGPSHistory > 2000 do table.remove(ProjectJaina_IntiObjGPSHistory, 1) end
 end
 local function notify(state, text)
     if state == "placed" then
@@ -114,8 +114,8 @@ local function notify(state, text)
     status:SetText(text)
     if e and allowed() then
         if state == "uploading" or state == "starting" or state == "running" or state == "ready" or state == "stopping" then
-            IntiObjGPSPending = { token = e.token, owner = UnitName("player"), realm = M.realm }
-        elseif state == "done" or state == "stopped" then IntiObjGPSPending = nil end
+            ProjectJaina_IntiObjGPSPending = { token = e.token, owner = UnitName("player"), realm = M.realm }
+        elseif state == "done" or state == "stopped" then ProjectJaina_IntiObjGPSPending = nil end
     end
     local busy = state == "uploading" or state == "starting" or state == "running" or state == "stopping"
     if busy then validate:Disable() else validate:Enable() end
@@ -126,7 +126,7 @@ local function notify(state, text)
 end
 e = M.New(function(command) SendChatMessage(command, "SAY") end, GetTime, notify, allowed)
 edit:SetScript("OnTextChanged", function(self, userInput)
-    if userInput then IntiObjGPSDraft = self:GetText(); e:Changed() end
+    if userInput then ProjectJaina_IntiObjGPSDraft = self:GetText(); e:Changed() end
 end)
 validate:SetScript("OnClick", function()
     edit:ClearFocus()
@@ -143,7 +143,7 @@ run:SetScript("OnClick", function()
 end)
 cancel:SetScript("OnClick", function() e:Cancel() end)
 history:SetScript("OnClick", function()
-    logEdit:SetText(table.concat(IntiObjGPSHistory or {}, "\n"))
+    logEdit:SetText(table.concat(ProjectJaina_IntiObjGPSHistory or {}, "\n"))
     logEdit:SetCursorPosition(0)
     logScroll:SetVerticalScroll(0)
     logFrame:Show()
@@ -161,13 +161,13 @@ listener:RegisterEvent("CHAT_MSG_ADDON")
 listener:RegisterEvent("PLAYER_ENTERING_WORLD")
 listener:SetScript("OnEvent", function(_, event, prefix, message, channel, sender)
     if event == "ADDON_LOADED" then
-        if prefix == "IntiObjGPS" and type(IntiObjGPSDraft) == "string" then edit:SetText(IntiObjGPSDraft:sub(1, M.maxLetters)) end
+        if prefix == "ProjectJaina_IntiObjGPS" and type(ProjectJaina_IntiObjGPSDraft) == "string" then edit:SetText(ProjectJaina_IntiObjGPSDraft:sub(1, M.maxLetters)) end
         return
     end
     if event == "PLAYER_ENTERING_WORLD" then
         if not allowed() then frame:Hide(); logFrame:Hide() end
         -- On UI reload, cancel the previous token, never resume/run it.
-        local pending = IntiObjGPSPending
+        local pending = ProjectJaina_IntiObjGPSPending
         if allowed() and not e.token and type(pending) == "table" and pending.realm == M.realm and
             pending.owner == UnitName("player") and type(pending.token) == "string" and
             #pending.token <= 32 and pending.token:match("^[%w_]+$") then

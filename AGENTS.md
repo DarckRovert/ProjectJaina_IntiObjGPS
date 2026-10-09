@@ -1,7 +1,7 @@
-# 🤖 Directrices de Ingeniería y Restricciones para Agentes IA — Wanos_IntiObjGPS
+# 🤖 Directrices de Ingeniería y Restricciones para Agentes IA — ProjectJaina_ProjectJaina_IntiObjGPS
 
-**Addon:** `Wanos_IntiObjGPS`  
-**Repositorio Oficial:** [https://github.com/DarckRovert/Wanos_IntiObjGPS](https://github.com/DarckRovert/Wanos_IntiObjGPS)  
+**Addon:** `ProjectJaina_ProjectJaina_IntiObjGPS`  
+**Repositorio Oficial:** [https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS](https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS)  
 **Motor Gráfico y Runtime:** WoW 3.3.5a WotLK (Build 12340) / Lua 5.1 (Blizzard VM)
 
 ---

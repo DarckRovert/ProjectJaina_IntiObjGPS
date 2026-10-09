@@ -1,4 +1,4 @@
-# 📜 Aviso Legal y Atribución — Wanos_IntiObjGPS
+# 📜 Aviso Legal y Atribución — ProjectJaina_ProjectJaina_IntiObjGPS
 
 Este repositorio forma parte de las herramientas de Staff y desarrollo de **Project Jaina - Project Jaina**.
 Contiene el editor y capturador de coordenadas GPS de GameObjects para World of Warcraft 3.3.5a (Build 12340).
@@ -7,8 +7,8 @@ Contiene el editor y capturador de coordenadas GPS de GameObjects para World of 
 
 ## 1. Autoría y Desarrollo Oficial
 * **Desarrollador:** DarckRovert & Project Jaina Development Team
-* **Ecosistema:** [Project Jaina — Project Jaina (Servidor Inti)](https://projectjaina.com/)
-* **Repositorio Oficial:** [DarckRovert/Wanos_IntiObjGPS](https://github.com/DarckRovert/Wanos_IntiObjGPS)
+* **Ecosistema:** [Project Jaina — Project Jaina (Servidor Inti)](https://darckrovert.github.io/ProjectJaina_Web/)
+* **Repositorio Oficial:** [DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS](https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS)
 
 ---
 

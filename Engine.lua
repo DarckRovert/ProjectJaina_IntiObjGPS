@@ -1,6 +1,6 @@
 -- WoW 3.3.5 / Lua 5.1. No loadstring, RunScript or arbitrary GM commands.
-IntiObjGPS = { prefix = "INTIGPS1", realm = "Inti (Pruebas)", maxObjects = 200, maxLetters = 40000 }
-local M = IntiObjGPS
+ProjectJaina_IntiObjGPS = { prefix = "INTIGPS1", realm = "Inti (Pruebas)", maxObjects = 200, maxLetters = 40000 }
+local M = ProjectJaina_IntiObjGPS
 local SCALE_MIN, SCALE_MAX = 0.01, 50
 
 local function valid(s, integer, min, max)

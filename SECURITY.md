@@ -1,7 +1,7 @@
-# 🛡️ Política de Seguridad y Mitigación de Vulnerabilidades — Wanos_IntiObjGPS
+# 🛡️ Política de Seguridad y Mitigación de Vulnerabilidades — ProjectJaina_ProjectJaina_IntiObjGPS
 
 **Proyecto:** Ecosistema Project Jaina  
-**Repositorio:** [https://github.com/DarckRovert/Wanos_IntiObjGPS](https://github.com/DarckRovert/Wanos_IntiObjGPS)
+**Repositorio:** [https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS](https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS)
 
 ---
 
@@ -27,4 +27,4 @@ Este addon sigue estrictos principios de diseño seguro para el cliente de World
 
 Si descubres una vulnerabilidad o un exploit que afecte la estabilidad del cliente o del servidor, por favor repórtalo directamente al Staff de Project Jaina a través de los canales oficiales:
 - **Discord:** Staff Project Jaina (Ticket Privado)
-- **GitHub Issues:** [https://github.com/DarckRovert/Wanos_IntiObjGPS/issues](https://github.com/DarckRovert/Wanos_IntiObjGPS/issues)
+- **GitHub Issues:** [https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS/issues](https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS/issues)

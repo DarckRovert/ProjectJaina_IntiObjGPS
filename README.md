@@ -1,6 +1,6 @@
-# IntiObjGPS — Editor de Objetos GPS para GM
+# ProjectJaina_IntiObjGPS — Editor de Objetos GPS para GM
 
-[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FWanos_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/Wanos_IntiObjGPS)
+[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FProjectJaina_ProjectJaina_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS)
 
 > **Project Jaina Ecosystem** · WotLK 3.3.5a compatible · `Interface: 30300`
 
@@ -22,20 +22,20 @@ Herramienta de **edición por lotes de coordenadas GPS de objetos** para Game Ma
 
 Solo disponible en cuentas GM del servidor **Inti** (entorno de pruebas).
 
-1. Copia `IntiObjGPS` a `Interface/AddOns/`.
+1. Copia `ProjectJaina_IntiObjGPS` a `Interface/AddOns/`.
 2. Requiere cuenta con `.gm on` activo.
 
 ## Variables Guardadas
 
 | Variable | Tipo | Descripción |
 |----------|------|-------------|
-| `IntiObjGPSHistory` | Global | Historial de ediciones |
-| `IntiObjGPSPending` | Global | Cola de cambios pendientes de envío |
-| `IntiObjGPSDraft` | Por personaje | Borrador del GM activo |
+| `ProjectJaina_IntiObjGPSHistory` | Global | Historial de ediciones |
+| `ProjectJaina_IntiObjGPSPending` | Global | Cola de cambios pendientes de envío |
+| `ProjectJaina_IntiObjGPSDraft` | Por personaje | Borrador del GM activo |
 
 ## Créditos y Licencia
 
-- **Autor:** DarckRovert (Elnazzareno) & Project Jaina Team
+- **Autor:** DarckRovert (Elnazzareno) & Antigravity (Mythos 5)
 - **Versión:** 2.0.0
 - **Acceso:** Solo GM — Servidor Inti (Pruebas)
 - **Licencia:** [MIT License](LICENSE)
