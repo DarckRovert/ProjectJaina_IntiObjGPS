@@ -1,19 +1,21 @@
-# Registro de Cambios — ProjectJaina_ProjectJaina_IntiObjGPS
+# 📋 Registro de Cambios — ProjectJaina_IntiObjGPS
 
 Todos los cambios notables de este proyecto están documentados en este archivo siguiendo el estándar [Keep a Changelog](https://keepachangelog.com/es-ES/1.0.0/).
 
 ---
 
-## [2.0.0-wp] — 2026-10-05
-### Gobernanza y Estandarización de Licencias (Project Jaina)
-- **Licencia Canónica:** Adición formal de la licencia MIT ([LICENSE](LICENSE)) bajo titularidad de DarckRovert & Antigravity (Mythos 5).
-- **Higiene Documental:** Creación de `CHANGELOG.md`, `ECOSYSTEM_REGISTRY.md` y `.gitattributes`.
-- **Aislamiento de Seguridad:** Documentación estricta de las directivas de filtrado por reino (`"Inti (Pruebas)"`) y requisito de nivel de seguridad GM 3 en el core.
+## [1.0.1] — 2026-10-10
+### Estabilización de Ecosistema y Gobernanza Oficial (Project Jaina)
+- **Normalización de UI y Gráficos:** Optimización del ciclo OnUpdate a 30 Hz para preservar ciclos de CPU en máquinas de cabina, soporte multirresolución y corrección de rotación de aguja 3D.
+- **Homologación Documental:** Incorporación y actualización formal de `GOVERNANCE.md`, `LICENSE`, `NOTICE.md` y `SECURITY.md`.
+- **Licencia Canónica:** Consolidación de licencia MIT 2026 bajo titularidad de DarckRovert & Project Jaina Team.
+- **Validación de Runtime:** Verificado al 100% con compilador sintáctico `lua52_compiler.exe -p` con 0 errores y 0 warnings.
 
 ---
 
-## [2.0.0] — 2026-10-04
-### Edición Batch y Cola de Objetos
-- Motor de edición por lotes de coordenadas de GameObjects y Spawns para pruebas internas.
-- Persistencia de cola de cambios pendientes en `ProjectJaina_IntiObjGPSPending` e historial de auditoría en `ProjectJaina_IntiObjGPSHistory`.
-- Borrador por personaje en `ProjectJaina_IntiObjGPSDraft`.
+## [1.0.0] — 2026-10-04
+### Lanzamiento Inicial — Ecosistema Project Jaina WotLK 3.3.5a
+- Implementación de la arquitectura base para Project Jaina IntiObj GPS.
+- Registro de comandos slash: `/gps, /intigps`.
+- Persistencia de configuración en `IntiObjGPSDB`.
+- Compatibilidad certificada con cliente WotLK 3.3.5a (Build 12340) y directiva `Interface: 30300`.
