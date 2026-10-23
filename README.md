@@ -1,6 +1,6 @@
 # ProjectJaina_IntiObjGPS — Editor de Objetos GPS para GM
 
-[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FProjectJaina_ProjectJaina_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS)
+[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FProjectJaina_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/ProjectJaina_IntiObjGPS)
 
 > **Project Jaina Ecosystem** · WotLK 3.3.5a compatible · `Interface: 30300`
 

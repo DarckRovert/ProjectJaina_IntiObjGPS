@@ -1,7 +1,7 @@
-# 🔌 Especificación Técnica y API — ProjectJaina_ProjectJaina_IntiObjGPS
+# 🔌 Especificación Técnica y API — ProjectJaina_IntiObjGPS
 
-[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FProjectJaina_ProjectJaina_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/ProjectJaina_ProjectJaina_IntiObjGPS)
-[![Ecosistema](https://img.shields.io/badge/Ecosistema-WoW%20Per%C3%BA%203.3.5a-gold.svg)](https://darckrovert.github.io/ProjectJaina_Web/)
+[![GitHub](https://img.shields.io/badge/GitHub-DarckRovert%2FProjectJaina_IntiObjGPS-black?logo=github)](https://github.com/DarckRovert/ProjectJaina_IntiObjGPS)
+[![Ecosistema](https://img.shields.io/badge/Ecosistema-Project%20Jaina%203.3.5a-gold.svg)](https://darckrovert.github.io/ProjectJaina_Web/)
 
 ## 📌 Resumen Arquitectónico
 Herramienta de precisión para Game Masters que permite capturar coordenadas exactas (x, y, z, orientacion, mapId) para spawns masivos y colocación de GameObjects en el mundo.
