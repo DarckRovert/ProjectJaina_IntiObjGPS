@@ -1,4 +1,5 @@
 ## Interface: 30300
+## Version: 2.0.0
 ## Title: Project Jaina - Objetos GPS
 ## Notes: Editor por lotes para GM 3. Solo Inti (Pruebas).
 ## Author: DarckRovert (Elnazzareno) & Antigravity (Mythos 5)

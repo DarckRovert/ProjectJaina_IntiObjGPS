@@ -4,7 +4,7 @@ Todos los cambios notables de este proyecto están documentados en este archivo 
 
 ---
 
-## [1.0.1] — 2026-10-10
+## [2.0.0] — 2026-10-10
 ### Estabilización de Ecosistema y Gobernanza Oficial (Project Jaina)
 - **Normalización de UI y Gráficos:** Optimización del ciclo OnUpdate a 30 Hz para preservar ciclos de CPU en máquinas de cabina, soporte multirresolución y corrección de rotación de aguja 3D.
 - **Homologación Documental:** Incorporación y actualización formal de `GOVERNANCE.md`, `LICENSE`, `NOTICE.md` y `SECURITY.md`.
