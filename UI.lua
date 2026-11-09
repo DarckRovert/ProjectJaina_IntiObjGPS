@@ -1,5 +1,8 @@
 local M = ProjectJaina_IntiObjGPS
-local function allowed() return GetRealmName() == M.realm end
+local function allowed()
+    local r = (GetRealmName() or ""):lower()
+    return r:find("jaina", 1, true) or r:find("wanitos", 1, true) or r:find("inti", 1, true)
+end
 local function chat(text) DEFAULT_CHAT_FRAME:AddMessage("|cffffcc00[Inti GPS]|r " .. text) end
 
 local frame = CreateFrame("Frame", "ProjectJaina_IntiObjGPSWindow", UIParent)
@@ -182,7 +185,9 @@ listener:SetScript("OnEvent", function(_, event, prefix, message, channel, sende
 end)
 listener:SetScript("OnUpdate", function() e:Update() end)
 SLASH_INTIOBJGPS1 = "/objgps"
+SLASH_INTIOBJGPS2 = "/gps"
+SLASH_INTIOBJGPS3 = "/intigps"
 SlashCmdList["INTIOBJGPS"] = function()
-    if not allowed() then chat("Solo disponible en Inti (Pruebas)."); return end
+    if not allowed() then chat("Solo disponible en servidores Project Jaina, WanitosGym o Inti."); return end
     if frame:IsShown() then frame:Hide() else frame:Show() end
 end
