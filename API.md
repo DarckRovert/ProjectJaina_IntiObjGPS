@@ -18,7 +18,11 @@ Herramienta de precisión para Game Masters que permite capturar coordenadas exa
 ---
 
 ## 📡 Protocolo de Red y Eventos
-- *(Este addon no utiliza mensajes AddonMessage de red; opera en espacio local del cliente)*.
+- **Prefijo AddonMessage:** `INTIGPS1` (Canal Whisper bidireccional entre cliente GM y `87_IntiObjGPS_Engine.lua`).
+- **Comando de Arranque:** `.objgpsbatch <token> <operación>` (interceptado silenciosamente en Eluna sin eco en chat).
+- **Tramas del Protocolo:**
+  - Cliente -> Servidor: `begin <n>`, `row <i> <entry> <map> <x> <y> <z> <o> <scale>`, `run`, `cancel`.
+  - Servidor -> Cliente: `<token>|BEGIN|<n>`, `<token>|ROW|<i>`, `<token>|READY|<n>`, `<token>|RUNNING`, `<token>|PLACED|<i> <guid> <entry> <scale>`, `<token>|DONE|<n>`, `<token>|ERROR|<detalle>`, `<token>|STOP|<detalle>`.
 
 ### Eventos del Motor 3.3.5a Gestionados
 - `PLAYER_LOGIN` / `ADDON_LOADED`: Inicialización atómica de tablas de configuración y hooks.
