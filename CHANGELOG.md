@@ -4,6 +4,15 @@ Todos los cambios notables de este proyecto están documentados en este archivo 
 
 ---
 
+## [2.0.1] — 2026-11-22
+### Registro de Prefijo IPC y Persistencia Real de GameObjects (Hito #386)
+- **Canal `CHAT_MSG_ADDON` (`UI.lua`):**
+  - Añadido `RegisterAddonMessagePrefix(M.prefix)` al inicializar `PLAYER_ENTERING_WORLD` (condicional seguro con fallback 3.3.5a).
+- **Persistencia en Base de Datos (`87_IntiObjGPS_Engine.lua`):**
+  - Sustituida invocación efímera `player:SummonGameObject` (`m_spawnId = 0`) por `PerformIngameSpawn(2, r.entry, r.map, instanceId, r.x, r.y, r.z, r.o, true, 0, phaseMask)` en `op == "run"`, resolución correcta de GUID con `go:GetSpawnId()`, escala mediante `go:SetScale(r.scale)`, validación de mapa/distancia (`<= 500y`) y verificación previa en `gameobject_template`.
+
+---
+
 ## [2.0.0] — 2026-10-10
 ### Estabilización de Ecosistema y Gobernanza Oficial (Project Jaina)
 - **Normalización de UI y Gráficos:** Optimización del ciclo OnUpdate a 30 Hz para preservar ciclos de CPU en máquinas de cabina, soporte multirresolución y corrección de rotación de aguja 3D.

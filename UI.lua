@@ -168,6 +168,7 @@ listener:SetScript("OnEvent", function(_, event, prefix, message, channel, sende
         return
     end
     if event == "PLAYER_ENTERING_WORLD" then
+        if RegisterAddonMessagePrefix then RegisterAddonMessagePrefix(M.prefix) end
         if not allowed() then frame:Hide(); logFrame:Hide() end
         -- On UI reload, cancel the previous token, never resume/run it.
         local pending = ProjectJaina_IntiObjGPSPending
